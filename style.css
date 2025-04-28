@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  
+  .home-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('C:\Users\ELCOT\Desktop\html\KAMALESH.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .home-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #552a63;
+  }
+  
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(42, 207, 152);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #e65c00;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #aa6a6a;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .about-section, .projects-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-section p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background: #fff;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .card h1 {
+    margin: 15px 0;
+  }
+  
+  .card h3 {
+    margin: 15px 0;
+  }
+  
+  .card p {
+    padding: 0 20px 20px;
+    font-size: 16px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }

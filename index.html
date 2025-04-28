@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Professional Portfolio</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <img src="KAMALESH.jpeg" alt="My Photo" class="profile-pic">
+      <h1>Hello, I'm <span>KAMALESH A</span></h1>
+      <p>Full Stack Developer | AI Enthusiast | Cloud Explorer</p>
+      <a href="KAMALESH.pdf.pdf" download class="btn">Download CV</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/kamalesh-a-302265288" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Kamaleshvishnu" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>I am a skilled developer with expertise in building dynamic web and mobile applications. My passion lies in creating innovative, efficient, and user-friendly digital experiences. I enjoy solving real-world problems through technology and continuous learning.</p>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="card">
+        <h1>Project 1</h1>
+        <h3>Guess the Number</h3>
+        <p>Simple Guess the Number web game made with HTML, CSS and JavaScript. Try to guess the hidden number within 10 chances and improve your score!</p>
+      </div>
+      <div class="card">
+        <h1 >Project 2 </h1>
+        <h3>Calculator</h3>
+        <p>Simple and beautiful web Calculator created using HTML, CSS, and JavaScript. Supports addition, subtraction, multiplication, and division with a sleek responsive layout.</p>
+      </div>
+      <div class="card">
+        <h1>Project 3</h1> 
+        <h3>Portfolio Website</h3>
+        <p>Developed a clean and responsive personal portfolio website using HTML, CSS, and JS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mdkgkqrq" method="POST" id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 KAMALESH A. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
